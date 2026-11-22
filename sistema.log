@@ -1,0 +1,22 @@
+2026-11-20 14:12:56,764 | INFO     | ===== INICIO DE SIMULACIÓN =====
+2026-11-20 14:12:56,764 | INFO     | Cliente registrado: Cliente[C001] Ana Gómez <ana@correo.com>
+2026-11-20 14:12:56,765 | ERROR    | Registro de cliente fallido: Correo inválido: 'luis-correo'.
+2026-11-20 14:12:56,765 | ERROR    | Registro de cliente fallido: El nombre del cliente es obligatorio.
+2026-11-20 14:12:56,765 | ERROR    | Registro de cliente fallido: Cliente.__init__() missing 2 required positional arguments: 'email' and 'telefono'
+2026-11-20 14:12:56,766 | INFO     | Cliente registrado: Cliente[C005] Carlos Díaz <carlos@correo.com>
+2026-11-20 14:12:56,766 | INFO     | Servicio creado: Sala 'Sala Norte' (cap. 10) $50,000/h
+2026-11-20 14:12:56,766 | INFO     | Servicio creado: Equipo 'Portátil' (stock 5) $12,000/h
+2026-11-20 14:12:56,766 | INFO     | Servicio creado: Asesoría 'Asesoría Cloud' en Cloud $90,000/h
+2026-11-20 14:12:56,766 | ERROR    | Creación de servicio fallida (SalaReserva): Tarifa por hora inválida: -100.
+2026-11-20 14:12:56,766 | INFO     | Reserva R001 confirmada. Costo: $178,500.00
+2026-11-20 14:12:56,766 | INFO     | Fin de procesamiento de reserva R001 (estado: CONFIRMADA)
+2026-11-20 14:12:56,766 | ERROR    | Reserva R002 falló: Excede la capacidad (10).
+2026-11-20 14:12:56,766 | INFO     | Fin de procesamiento de reserva R002 (estado: FALLIDA)
+2026-11-20 14:12:56,767 | ERROR    | Reserva R003 falló: 'Portátil' no está disponible.
+2026-11-20 14:12:56,767 | INFO     | Fin de procesamiento de reserva R003 (estado: FALLIDA)
+2026-11-20 14:12:56,767 | INFO     | Reserva R004 confirmada. Costo: $321,300.00
+2026-11-20 14:12:56,767 | INFO     | Fin de procesamiento de reserva R004 (estado: CONFIRMADA)
+2026-11-20 14:12:56,767 | INFO     | Reserva R005 confirmada. Costo: $42,840.00
+2026-11-20 14:12:56,767 | INFO     | Fin de procesamiento de reserva R005 (estado: CONFIRMADA)
+2026-11-20 14:12:56,767 | ERROR    | Cancelación inválida: La reserva ya estaba cancelada.
+2026-11-20 14:12:56,768 | INFO     | ===== FIN DE SIMULACIÓN =====
